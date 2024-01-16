@@ -1,14 +1,14 @@
 { 
-  "name": "KING-VAJIRA-MD",
-  "description": "A Whatsapp md bot built By Naveed to make experience better",
-  "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
+  "name": "Gulsher-bot",
+  "description": "A Whatsapp md bot built By Gulsher and Ali to make experience better",
+  "logo": "https://telegra.ph/Bot-01-16-11",
   "keywords": ["nodejs", "bot", "whatsapp bot", "King-Two", "KING-MD", "KING","king-Bot","theme bot","multi device","baileys"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "VAJIRA RATHNAYAKA"
+      "value": "Gulsher Awan"
 
     },
   "AUTO_READ_STATUS": {
@@ -26,7 +26,7 @@
     },
    "THUMB_IMAGE": {
     "description": "Put Your Image Url for bot./ බොට්ට පින්තුරයක් දැමීමට ඔබෙ පින්තුරෙ url එක දමන්න",
-     "value": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg"
+     "value": "https://telegra.ph/Bot-01-16-11"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -35,22 +35,22 @@
    "ANTILINK_VALUES": {
     "description": "Put words for antilink/ අනවශ්‍ය ලින්ක් දැමීමෙන වැලකීමට",
      "value": "chat.whatsapp.com",
-     "required" :false
+     "required" :true
      },
    "FAKE_COUNTRY_CODE": {
     "description": "Put the Country Code Name without +/ වියාජ රටෙහි කෝඩ් එක දමන්න",
      "value": "212",
-     "required" :false
+     "required" :true
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
      "value": "remove",
-     "required" :false
+     "required" :true
     },
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat./ levelup මැසෙජ් එක ඔටො යැවීමට true/false",
-     "required" :false,
-     "value": "false"
+     "required" :true,
+     "value": "true"
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages./ හැම මැසේජ් එකක්ම ඔටෝ සීන් කිරිමට true/false",
@@ -68,15 +68,15 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot/ තමන්ගෙ නම්බ එක (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94Xxxxxxxxxx"
+       "value": "93235439274"
   },
    "SESSION_ID": {
     "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to KING-MD Github Repo U can find the Scanner Option"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
-       "value": "ADD A OPEN AI KEY",
-       "required" :false
+       "value": "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",
+       "required" :true
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
@@ -92,16 +92,16 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands./ හැම මැසෙජ් එකකටම ඔටො රියැක්ශන් එකක් වැටීමට true/false",
-     "value": "false",
-     "required": false 
+     "value": "true",
+     "required": true 
   },
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "vajira"
+    "value": "Gulsher"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "king-vajira-md"
+    "value": "Gulsher"
   },
   "heroku": {
     "description": "Weather it is on heroku or not",
